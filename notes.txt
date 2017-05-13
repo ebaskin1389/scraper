@@ -1,0 +1,5 @@
+$ heroku config | grep MONGODB_URI
+MONGODB_URI: mongodb://heroku_65b6lxk7:eidd74jsap75r17j6puu3v1hhi@ds157677.mlab.com:57677/heroku_65b6lxk7
+
+
+When you’re ready to connect Mongoose with your remote database, simply paste the URI string as the lone argument of your mongoose.connect() function. 
